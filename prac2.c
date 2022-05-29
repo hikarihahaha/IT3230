@@ -47,7 +47,7 @@ void insertnode(char *Id, char *Name, double Toan, double Ly, double Hoa){
 }
 void insert(){
     char Id[10], Name[50];
-	double Toan, Ly, Hoa;
+    double Toan, Ly, Hoa;
     printf("Enter Id: ");
     scanf("%s", &Id);
     fflush(stdin);
@@ -127,7 +127,7 @@ void load(char *filename){
     if(f == NULL){
 		printf("File couldn't be opened\n");
 		return;
-	} else{
+    } else{
         int n;
         fscanf(f, "%d", &n);
         while(!feof(f)){
@@ -200,7 +200,7 @@ void processSave(){
 
 int main(){
     init();
-	while(1){
+    while(1){
         printf("Enter command: ");
         char cmd[256];
         scanf("%s",cmd);
