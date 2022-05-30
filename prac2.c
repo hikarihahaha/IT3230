@@ -11,8 +11,8 @@
 #define N 256
 typedef struct Studentnode{
     char id[10], name[50];
-	double toan, ly, hoa;
-	struct Studentnode *next;
+    double toan, ly, hoa;
+    struct Studentnode *next;
 }Studentnode;
 
 Studentnode *first, *last;
@@ -151,6 +151,7 @@ void swap(Studentnode *a, Studentnode *b){
     a = b;
     b = temp;
 }
+//not done yet
 void swapNodes(){ // swap the pos of two node
     char id1[10], id2[10];
     scanf("%s %s", &id1, &id2);
