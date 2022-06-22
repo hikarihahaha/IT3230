@@ -16,6 +16,8 @@ typedef struct class{
     struct class *next;
 }class;
 
+// there will be a file practice3.txt included with this source code
+
 class *first, *last;
 
 void init(){
